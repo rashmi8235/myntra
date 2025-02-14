@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: beige;
+    height:100%;
+    width:100%;
+}
+.ram{
+    display: flex;
+    align-items: stretch;
+}
+.container{
+    display:flex;
+    width:auto;
+     font-size: 30px;
+    background-color: aqua;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+
+}
+.Profile{
+    width:50px;
+    height:auto;
+    background-color:aqua
+
+}
+.myntra{
+    width:50px;
+    height:auto;
+}
+.Whislist{
+    width:50px;
+    height:auto;
+}
+.rashmi{
+    width: 100%;
+    padding:10px;
+    font-size: 20px;
+}
+.anu{
+    display:flex;
+    padding: 10px;
+    align-content: space-between;
+    margin: 5px;;
+    font-size:20px;
+    background-color: burlywood;
+    gap:100px;
+    text-align:end;
+    width: auto;
+}
+.soul{
+    font-size: 25px;
+    font-weight: bolder;
+    gap:50px;
+}
+.kabir{
+    display:flex;
+    flex-direction: row;
+    width: 100vw;
+
+}
+
+.container3{
+    display:flex;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+    box-sizing: border-box;
+    width: 200px;
+    gap: 10px;
+    align-items: baseline;
+    padding: 20px;
+    margin: 30px;
+}
+.clothes{
+    display:flex;
+    flex-direction:column;
+}
+.hema{
+    width:300px;
+    height:auto;
+}
+.container2{
+    
+    display:flex;
+    font-size: 30px;
+    flex-direction: row;
+    gap:1.5rem;
+    flex-wrap: wrap;
+    width:100vw;
+}
+.r{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 5px;
+    margin:5px;
+
+    
+}
+.b{
+    border: 1px solid black;
+}
+.r:hover{
+    transform:scale(1.1);
+    transition: all 1ms;
+}
+.ganga{
+
+    display: flex;
+    font-size: smaller;
+    flex-direction: row;
+}
+@media(max-width:700px){
+    .ganga{
+        flex-direction: column;
+    }
+}
